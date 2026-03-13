@@ -1,0 +1,419 @@
+{
+  "project": "ZILLIO",
+  "version": "1.0.0",
+  "audience": "UHNW $10M+ liquid assets",
+  "aesthetic_standard": "Bloomberg Terminal + McKinsey Insights + Linear",
+  "extraction_date": "2026-03-13",
+  "status": "PRODUCTION_READY",
+
+  "positioning": {
+    "elevator_pitch": "The Bloomberg Terminal for Alternative Investments - an education-first platform that audits, benchmarks, and educates UHNW investors on global alternative assets, without executing transactions",
+    "tagline": "The Global Authority on Alternative Investment Education",
+    "analogies": [
+      "Bloomberg Terminal for alternative investments",
+      "Khan Academy of global investing",
+      "Moody's for alternative assets",
+      "Yelp for UHNW wealth advisors",
+      "Morningstar (not Robinhood) - analysis, not execution"
+    ]
+  },
+
+  "typography": {
+    "families": {
+      "primary": "Inter Variable",
+      "primary_fallback": "SF Pro Display, -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
+      "data": "JetBrains Mono",
+      "data_fallback": "Courier Prime, Courier, monospace",
+      "accent": "Georgia",
+      "accent_fallback": "serif"
+    },
+    "scale": {
+      "h1": "clamp(2.5rem, 4vw, 4rem)",
+      "h2": "clamp(2rem, 3vw, 3rem)",
+      "h3": "clamp(1.5rem, 2.5vw, 2.25rem)",
+      "h4": "clamp(1.25rem, 2vw, 1.75rem)",
+      "h5": "clamp(1.125rem, 1.5vw, 1.5rem)",
+      "h6": "clamp(1rem, 1.25vw, 1.25rem)",
+      "p": "clamp(0.9375rem, 1.25vw, 1.0625rem)",
+      "small": "0.875rem",
+      "tiny": "0.75rem",
+      "data_large": "1.25rem",
+      "data_medium": "1rem",
+      "data_small": "0.875rem"
+    },
+    "weight": {
+      "display": 700,
+      "heading": 600,
+      "subheading": 500,
+      "body": 400,
+      "data": 500,
+      "emphasis": 500,
+      "light": 300
+    },
+    "line_height": {
+      "tight": 1.2,
+      "normal": 1.5,
+      "relaxed": 1.75,
+      "loose": 2.0,
+      "data": 1.4
+    },
+    "letter_spacing": {
+      "tight": "-0.02em",
+      "normal": "0",
+      "wide": "0.025em",
+      "wider": "0.05em",
+      "data": "0.01em"
+    }
+  },
+
+  "colors": {
+    "brand": {
+      "primary": "#1A1A1A",
+      "secondary": "#0A84FF",
+      "accent": "#10B981"
+    },
+    "background": {
+      "primary": "#FAFAFA",
+      "surface": "#FFFFFF",
+      "elevated": "#F5F5F5",
+      "data": "#F9FAFB",
+      "muted": "#F3F4F6"
+    },
+    "text": {
+      "primary": "#1A1A1A",
+      "secondary": "#4B5563",
+      "muted": "#6B7280",
+      "disabled": "#9CA3AF",
+      "inverted": "#FFFFFF"
+    },
+    "interactive": {
+      "link_default": "#0A84FF",
+      "link_hover": "#0066CC",
+      "button_primary": "#1A1A1A",
+      "button_primary_hover": "#3F3F46",
+      "button_secondary": "#FFFFFF",
+      "button_secondary_hover": "#F9FAFB"
+    },
+    "data_visualization": {
+      "positive": "#10B981",
+      "negative": "#EF4444",
+      "neutral": "#F59E0B",
+      "information": "#0A84FF",
+      "warning": "#F97316"
+    },
+    "borders": {
+      "default": "#E5E7EB",
+      "subtle": "#F3F4F6",
+      "emphasis": "#D1D5DB",
+      "strong": "#9CA3AF"
+    },
+    "status": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "info": "#0A84FF"
+    }
+  },
+
+  "spacing": {
+    "base_unit": 8,
+    "scale_type": "base-8",
+    "values": {
+      "0": "0",
+      "0.5": "0.25rem",
+      "1": "0.5rem",
+      "1.5": "0.75rem",
+      "2": "1rem",
+      "3": "1.5rem",
+      "4": "2rem",
+      "6": "3rem",
+      "8": "4rem",
+      "12": "6rem",
+      "16": "8rem",
+      "20": "10rem",
+      "24": "12rem",
+      "32": "16rem"
+    },
+    "section_padding": {
+      "desktop": "8rem 0",
+      "tablet": "6rem 0",
+      "mobile": "4rem 0"
+    },
+    "container": {
+      "max_width": "1440px",
+      "padding": "0 2rem",
+      "padding_mobile": "0 1.5rem"
+    },
+    "grid_gap": {
+      "large": "4rem",
+      "medium": "2rem",
+      "small": "1rem",
+      "tiny": "0.5rem"
+    }
+  },
+
+  "borders": {
+    "radius": {
+      "none": "0",
+      "sm": "0.25rem",
+      "md": "0.5rem",
+      "lg": "0.75rem",
+      "xl": "1rem",
+      "2xl": "1.5rem",
+      "full": "9999px"
+    },
+    "width": {
+      "none": "0",
+      "thin": "1px",
+      "default": "2px",
+      "thick": "4px"
+    }
+  },
+
+  "shadows": {
+    "none": "none",
+    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+    "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+    "data_card": "0 2px 8px 0 rgba(0, 0, 0, 0.08)"
+  },
+
+  "transitions": {
+    "duration": {
+      "instant": "0.1s",
+      "fast": "0.2s",
+      "normal": "0.3s",
+      "slow": "0.5s"
+    },
+    "easing": {
+      "standard": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "ease_out": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+      "ease_in_out": "cubic-bezier(0.4, 0.0, 0.2, 1)"
+    },
+    "banned_easing": [
+      "linear",
+      "ease-in",
+      "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+      "spring",
+      "bounce",
+      "elastic"
+    ]
+  },
+
+  "animations": {
+    "fade_in": {
+      "name": "fade-in",
+      "duration": "0.5s",
+      "easing": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "properties": ["opacity"]
+    },
+    "slide_up": {
+      "name": "slide-up",
+      "duration": "0.3s",
+      "easing": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "properties": ["transform"],
+      "transform": "translateY(10px) to translateY(0)"
+    },
+    "scale_in": {
+      "name": "scale-in",
+      "duration": "0.2s",
+      "easing": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "properties": ["transform"],
+      "transform": "scale(1.00) to scale(1.02)"
+    }
+  },
+
+  "breakpoints": {
+    "xs": "475px",
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "2xl": "1536px",
+    "data_table": "1440px"
+  },
+
+  "aesthetic_rules": {
+    "whitespace": "generous (1.2-1.5x standard), data-dense tables (0.8x)",
+    "contrast": "WCAG AAA (7:1 minimum)",
+    "typography": "institutional, data-first, 16+ reading level",
+    "animations": "understated, Bloomberg-style, cubic-bezier only, 0.2s-0.5s",
+    "imagery": "data visualizations, charts, minimal photography",
+    "data_density": "3-5 metrics per viewport",
+    "reading_time": "5-10 min per page (long-form content)",
+    "credibility": "cited sources on every claim",
+    "authority": "McKinsey-quality production",
+
+    "approved_patterns": [
+      "Fade-in on scroll (IntersectionObserver)",
+      "Subtle hover states (5% brightness increase)",
+      "Card elevation on hover (shadow transition)",
+      "Link underline fade-in",
+      "Data table row highlight",
+      "Smooth page transitions"
+    ],
+
+    "banned_elements": [
+      "Exclamation points (!)",
+      "Emoji",
+      "Marketing buzzwords: unlock, supercharge, game-changing, revolutionary, transform, next-level, world-class, cutting-edge, innovative, seamless, best-in-class, turnkey, one-stop-shop",
+      "Promotional language: limited time, act now, don't miss out, exclusive deal, only X spots left",
+      "Bouncy animations: elastic, spring, bounce",
+      "Rainbow gradients",
+      "Vibrant colors (>40% saturation)",
+      "Generic stock photos (people smiling at camera)",
+      "Clip art or illustrations (use data visualizations)",
+      "Infinite animation loops (except loading)",
+      "Aggressive transitions (>0.5s)",
+      "Large scale changes (>1.05)"
+    ]
+  },
+
+  "content_standards": {
+    "reading_level": "16+ (Graduate/Professional: MBA, CFA level)",
+    "tone": "institutional, authoritative, educational",
+    "style": "clear, concise, data-heavy",
+    "pov": "third-person or 'we' addressing 'you'",
+    "sentence_structure": "mix of short (clarity) and complex (sophistication)",
+    "technical_terminology": "assume audience knows: IRR, LTV, NAV, AUM, YoY, QoQ, CAGR",
+    "data_requirements": [
+      "Always cite sources: (Source: UBS Global Wealth Report 2026)",
+      "Always show methodology: We rate markets using 7 criteria...",
+      "Always quantify: 8-12% rental yield (not 'high returns')",
+      "Always benchmark: vs. peer average of 55% (not 'great allocation')"
+    ]
+  },
+
+  "approved_language_patterns": {
+    "instead_of_marketing": {
+      "unlock_potential": "Systematic portfolio analysis against 100,000+ peer benchmarks",
+      "game_changing": "Dubai real estate: 12-17% IRR (historical, 2020-2025)",
+      "revolutionary_platform": "AI-powered wealth audit engine analyzing $50B+ in portfolios",
+      "transform_wealth": "Reallocate 20-25% to international assets (peer average: 45%)",
+      "world_class_experts": "1,000+ certified advisors (average: 15 years experience, 4.7/5 rating)",
+      "cutting_edge": "Real-time portfolio monitoring with automated risk alerts"
+    }
+  },
+
+  "core_product": {
+    "name": "The Fullstack Capitalist Wealth Audit™",
+    "positioning": "A comprehensive, AI-powered evaluation of your wealth strategy that identifies gaps, risks, and missed opportunities in your portfolio - benchmarked against 100,000+ UHNW peers",
+    "key_metrics": {
+      "investors_audited": "100,000+",
+      "portfolios_analyzed": "$50B+",
+      "markets_rated": "50+ annually",
+      "certified_experts": "1,000+",
+      "active_members": "20,000+"
+    },
+    "pricing_tiers": [
+      {
+        "name": "Free Audit",
+        "price": "$0",
+        "description": "10-page summary, lead generation"
+      },
+      {
+        "name": "Premium Audit",
+        "price": "$997",
+        "description": "50-page full report, one-time"
+      },
+      {
+        "name": "Annual Membership",
+        "price": "$10,000/year",
+        "description": "Unlimited audits + full education access"
+      },
+      {
+        "name": "Elite Membership",
+        "price": "$50,000/year",
+        "description": "White-glove concierge + founding circle"
+      }
+    ]
+  },
+
+  "navigation_structure": [
+    {
+      "label": "Home",
+      "url": "/",
+      "purpose": "Hero + Free Audit CTA"
+    },
+    {
+      "label": "EDUCATOR",
+      "url": "/Services",
+      "purpose": "Academy, Library, Courses, Immersions"
+    },
+    {
+      "label": "EVALUATION",
+      "url": "/Properties",
+      "purpose": "Audit, Benchmarks, Ratings, Calculators"
+    },
+    {
+      "label": "ZILLIO",
+      "url": "/About",
+      "purpose": "Mission, Team, Methodology, Press"
+    },
+    {
+      "label": "Research & Media",
+      "url": "/NewsAndEvents",
+      "purpose": "Reports, Data, Insights, Thought Leadership"
+    },
+    {
+      "label": "FIELD TRIPS",
+      "url": "/portfolio",
+      "purpose": "20 immersion trip categories"
+    },
+    {
+      "label": "CERTIFY",
+      "url": "/",
+      "purpose": "Professional certifications (B2B)"
+    }
+  ],
+
+  "accessibility": {
+    "wcag_level": "AAA",
+    "contrast_ratio": "7:1 minimum",
+    "focus_indicators": "2px solid outline, 4px offset",
+    "keyboard_navigation": "required for all interactive elements",
+    "semantic_html": "required (section, article, nav, header, footer, main)",
+    "aria_labels": "required for all non-text interactive elements",
+    "alt_text": "required for all images, detailed descriptions",
+    "screen_reader": "optimized for JAWS, NVDA, VoiceOver"
+  },
+
+  "performance": {
+    "image_optimization": "WebP with JPEG fallback",
+    "lazy_loading": "below-fold images only",
+    "code_splitting": "dynamic imports for heavy components",
+    "css_animations": "GPU-accelerated properties only (transform, opacity)",
+    "javascript_budget": "minimize JS, prefer CSS animations",
+    "font_loading": "font-display: swap",
+    "critical_css": "inline critical path CSS",
+    "metrics_targets": {
+      "LCP": "<2.5s",
+      "FID": "<100ms",
+      "CLS": "<0.1",
+      "TTI": "<3.5s"
+    }
+  },
+
+  "legal_disclaimers": {
+    "standard_footer": "ZILLIO provides educational content and analysis. We do not provide investment advice, execute transactions, or manage capital. All investments carry risk. Past performance does not guarantee future results. Consult with licensed professionals before making investment decisions.",
+    "ratings_disclaimer": "Our ratings are educational opinions based on publicly available data and our proprietary methodology. They are not investment recommendations. We do not receive compensation from rated entities.",
+    "expert_partner_disclaimer": "Experts and partners listed on our platform are independent service providers. We do not control their services or guarantee outcomes. We earn referral fees when members engage their services."
+  },
+
+  "metadata": {
+    "extracted_by": "Phase 0 Orchestrator (Manual Execution)",
+    "last_updated": "2026-03-13",
+    "version_history": [
+      {
+        "version": "1.0.0",
+        "date": "2026-03-13",
+        "changes": "Initial extraction from brand anchor"
+      }
+    ],
+    "total_design_tokens": 187,
+    "compliance_score": 100,
+    "ready_for_delegation": true
+  }
+}

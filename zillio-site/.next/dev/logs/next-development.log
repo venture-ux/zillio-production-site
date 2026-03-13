@@ -1,0 +1,56 @@
+[06:04:01.104] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-server.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/start-server.js
+[06:04:01.297] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-server.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/start-server.js
+[06:04:01.468] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-server.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/start-server.js
+[06:04:01.581] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-server.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/start-server.js
+[06:04:01.647] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-server.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/start-server.js
+[06:04:01.674] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-server.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/start-server.js
+[06:04:01.753] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-server.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/start-server.js
+[06:04:01.813] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/router-server.js
+- /Users/lgzlholding/Documents/dev-website Templates_cloning from ai/Projects/004 Zillio/zillio-site/node_modules/next/dist/server/lib/start-server.js

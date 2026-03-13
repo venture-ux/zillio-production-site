@@ -1,0 +1,43 @@
+ZILLIO H1 SIZE AUDIT - INCONSISTENCIES FOUND
+============================================
+
+CURRENT STATE (11 different sizes):
+
+1. About.jsx          - clamp(4rem, 9vw, 10rem)     = 64px → 160px  (VERY LARGE)
+2. Contact.jsx        - clamp(4rem, 9vw, 10rem)     = 64px → 160px  (VERY LARGE)
+3. ServiceDetail.jsx  - clamp(3.5rem, 8vw, 9rem)    = 56px → 144px  (LARGE)
+4. PropertyDetail.jsx - clamp(2.5rem, 6vw, 6rem)    = 40px → 96px   (MEDIUM)
+5. Services.jsx       - clamp(2.5rem, 5vw, 4.5rem)  = 40px → 72px   (SMALL)
+6. Properties.jsx     - text-5xl md:text-7xl lg:text-[5.5rem] = 48px → 88px (MEDIUM-LARGE)
+7. NewsAndEvents.jsx  - text-5xl md:text-7xl        = 48px → 72px   ✅ CORRECT
+8. Portfolio.jsx      - text-5xl md:text-7xl        = 48px → 72px   ✅ CORRECT
+9. REHome.jsx         - text-5xl md:text-7xl        = 48px → 72px   ✅ CORRECT (GOLDEN STANDARD)
+10. Research.jsx      - text-5xl md:text-7xl lg:text-9xl = 48px → 128px (EXTRA LARGE)
+11. TheLine.jsx       - text-[12vw]                 = 120px+ (MASSIVE)
+
+PROBLEMS:
+- 8 pages don't match REHome golden standard
+- Size range: 40px - 160px (4X variation!)
+- No consistent hierarchy
+
+SOLUTION - 3-TIER SYSTEM:
+
+Tier 1: HERO PRIMARY (Homepage, major pages)
+  - Size: text-5xl md:text-7xl
+  - Pixels: 48px (mobile) → 72px (desktop)
+  - Use: REHome, Portfolio, NewsAndEvents, major landing pages
+
+Tier 2: HERO LARGE (Special impact pages)
+  - Size: text-6xl md:text-8xl
+  - Pixels: 60px (mobile) → 96px (desktop)
+  - Use: TheLine, Research (rare, special pages only)
+
+Tier 3: HERO COMPACT (Detail pages, subpages)
+  - Size: text-4xl md:text-6xl
+  - Pixels: 36px (mobile) → 60px (desktop)
+  - Use: PropertyDetail, ServiceDetail, Contact, About
+
+CONVERSION PLAN:
+1. Most pages → text-5xl md:text-7xl (Tier 1)
+2. Special pages → text-6xl md:text-8xl (Tier 2)
+3. Detail pages → text-4xl md:text-6xl (Tier 3)

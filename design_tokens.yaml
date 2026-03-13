@@ -1,0 +1,722 @@
+# ========================================
+# ZILLIO BRAND DESIGN SYSTEM
+# Golden Standard: TheLine.jsx
+# ========================================
+# Extracted by: Agent Alpha (DNA Extractor)
+# Extraction Date: 2026-03-13
+# Version: 1.0.0
+# Status: PRODUCTION_READY
+# Total Design Tokens: 165+
+# ========================================
+
+project: "Zillio Brand System (NEOM Vision Template)"
+golden_standard_file: "src/pages/TheLine.jsx"
+golden_standard_component: "TheLine"
+components_analyzed:
+  - "TheLine.jsx"
+  - "NeomNav.jsx"
+  - "NeomFooter.jsx"
+
+# ========================================
+# 1. TYPOGRAPHY SYSTEM (32 tokens)
+# ========================================
+typography:
+  families:
+    primary: "'Outfit', sans-serif"  # Main brand font
+    fallback: "sans-serif"
+    serif: "font-serif"  # Used for quotes/testimonials
+    import_url: "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+
+  # Hero & Display Headings
+  headings:
+    hero_display:
+      size: "text-[12vw]"  # Viewport-based, ultra-large
+      weight: "font-black"  # 900
+      tracking: "tracking-tighter"
+      letter_spacing: "-0.04em"
+      line_height: "leading-none"
+      transform: "uppercase"
+      text_shadow: "0 10px 30px rgba(0,0,0,0.3)"
+      example: "THE LINE"
+
+    section_large:
+      size: "text-5xl md:text-7xl"
+      weight: "font-light"  # 300
+      tracking: "tracking-[0.2em]"
+      letter_spacing: "0.15em"
+      line_height: "leading-[1.1]"
+      transform: "uppercase"
+      example: "A Revolution in Civilization"
+
+    section_hero_black:
+      size: "text-4xl md:text-7xl"
+      weight: "font-black"  # 900
+      tracking: "tracking-tighter"
+      letter_spacing: "-0.03em"
+      line_height: "leading-none"
+      transform: "uppercase"
+      example: "DESIGNED TO DELIVER NEW WONDERS"
+
+  # Body & Descriptive Text
+  body:
+    large:
+      size: "text-2xl md:text-3xl"
+      weight: "font-light"  # 300
+      line_height: "leading-relaxed"
+      color: "text-gray-800"
+      max_width: "max-w-4xl"
+      example: "Intro paragraphs in light sections"
+
+    medium:
+      size: "text-xl md:text-2xl"
+      weight: "font-light"  # 300
+      line_height: "leading-relaxed"
+      color: "text-gray-700"
+      example: "Secondary paragraphs"
+
+  # Labels & Eyebrows
+  labels:
+    eyebrow_large:
+      size: "text-xs md:text-sm"
+      weight: "font-bold"  # 700
+      tracking: "tracking-[0.3em]"
+      transform: "uppercase"
+      color: "#c9a76c"  # Gold accent
+      margin_bottom: "mb-10"
+      example: "The Future of Urban Living"
+
+    eyebrow_small:
+      size: "text-[11px]"
+      weight: "font-bold"  # 700
+      tracking: "tracking-[0.3em]"
+      transform: "uppercase"
+      color: "#c9a76c"
+      margin_bottom: "mb-5 md:mb-6"
+      example: "THIS IS THE LINE"
+
+    eyebrow_tiny:
+      size: "text-[10px]"
+      weight: "font-bold"  # 700
+      tracking: "tracking-[0.2em]"
+      transform: "uppercase"
+      color: "text-white"
+      example: "NEOM badge in hero"
+
+  # Navigation Typography
+  nav:
+    primary:
+      size: "text-xs"
+      weight: "font-light"  # 300
+      tracking: "tracking-[0.18em]"
+      transform: "uppercase"
+      opacity: "opacity-80 hover:opacity-100"
+      transition: "transition-opacity"
+
+    dropdown:
+      size: "text-xs"
+      weight: "font-light"
+      tracking: "tracking-[0.15em]"
+      transform: "uppercase"
+      color: "text-white/50 hover:text-white"
+      transition: "transition-colors"
+      whitespace: "whitespace-nowrap"
+
+  # Button Typography
+  buttons:
+    primary:
+      size: "text-xs"
+      weight: "font-bold"  # 700
+      tracking: "tracking-widest"
+      transform: "uppercase"
+
+    cta:
+      size: "text-xs"
+      weight: "font-medium"  # 500
+      tracking: "tracking-[0.15em]"
+      transform: "uppercase"
+
+  # Footer Typography
+  footer:
+    category_heading:
+      size: "text-xs"
+      weight: "font-medium"  # 500
+      tracking: "tracking-[0.2em]"
+      transform: "uppercase"
+      color: "text-white/80"
+      margin_bottom: "mb-6"
+
+    link:
+      size: "text-xs"
+      weight: "font-light"  # 300
+      tracking: "tracking-wide"
+      color: "text-white/35 hover:text-white/70"
+      transition: "transition-colors"
+
+    small_text:
+      size: "text-xs"
+      weight: "font-light"
+      color: "text-white/30"
+
+  # Quote/Testimonial
+  quote:
+    text:
+      size: "text-2xl md:text-4xl"
+      weight: "font-light"  # 300
+      line_height: "leading-relaxed"
+      style: "italic"
+      color: "text-white/90"
+      family: "font-serif"
+      margin_bottom: "mb-14"
+
+# ========================================
+# 2. COLOR PALETTE (38 tokens)
+# ========================================
+colors:
+  # Brand Colors
+  brand:
+    gold: "#c9a76c"  # Primary accent - used for eyebrows, dividers, active states
+    gold_shadow: "rgba(201,167,108,0.5)"  # Gold glow effect
+    neom_red: "#C41E3A"  # NEOM logo red
+
+  # Background Colors
+  backgrounds:
+    black_pure: "#000000"
+    black_deep: "#050505"
+    black_dark: "#0a0a0a"
+    cream_light: "#f6f5f1"
+    cream_lighter: "#faf9f6"
+    white: "#FFFFFF"
+
+  # Overlay & Gradient Colors
+  overlays:
+    black_95: "rgba(0,0,0,0.95)"
+    black_94: "rgba(0,0,0,0.94)"
+    black_90: "rgba(0,0,0,0.90)"
+    black_80: "rgba(0,0,0,0.80)"
+    black_50: "rgba(0,0,0,0.50)"
+    black_40: "rgba(0,0,0,0.40)"
+    black_30: "rgba(0,0,0,0.30)"
+    black_20: "rgba(0,0,0,0.20)"
+    black_10: "rgba(0,0,0,0.10)"
+    deep_black_97: "rgba(5,5,5,0.97)"
+    white_10: "rgba(255,255,255,0.10)"
+    white_05: "rgba(255,255,255,0.05)"
+
+  # Text Colors
+  text:
+    white: "#FFFFFF"
+    white_90: "text-white/90"
+    white_80: "text-white/80"
+    white_70: "text-white/70"
+    white_60: "text-white/60"
+    white_50: "text-white/50"
+    white_40: "text-white/40"
+    white_35: "text-white/35"
+    white_30: "text-white/30"
+    white_25: "text-white/25"
+    gray_800: "text-gray-800"
+    gray_700: "text-gray-700"
+    black: "text-black"
+
+  # Border Colors
+  borders:
+    white_40: "rgba(255,255,255,0.4)"
+    white_30: "rgba(255,255,255,0.3)"
+    white_20: "rgba(255,255,255,0.2)"
+    white_12: "rgba(255,255,255,0.12)"
+    white_10: "border-white/10"
+    white_08: "rgba(255,255,255,0.08)"
+    white_06: "rgba(255,255,255,0.06)"
+    white_05: "border-white/5"
+    black_05: "border-black/5"
+    gold_30: "rgba(201,167,108,0.3)"  # Gold border for avatar
+
+# ========================================
+# 3. SPACING SYSTEM (28 tokens)
+# ========================================
+spacing:
+  # Section Spacing
+  sections:
+    vertical_large: "py-32"  # Main sections
+    vertical_standard: "py-24"  # Standard sections
+    vertical_medium: "py-20"
+    vertical_small: "py-16"
+    vertical_compact: "py-10"
+    vertical_tiny: "py-6"
+
+    horizontal_desktop: "px-8 md:px-16 lg:px-24"  # Standard horizontal padding
+    horizontal_footer: "px-8 md:px-20"  # Footer specific
+    horizontal_nav: "px-8 md:px-16"  # Nav specific
+    horizontal_mobile: "px-6"  # Mobile only
+
+  # Container Spacing
+  containers:
+    max_width_5xl: "max-w-5xl"  # 64rem
+    max_width_6xl: "max-w-6xl"  # 72rem
+    max_width_7xl: "max-w-7xl"  # 80rem
+    max_width_4xl: "max-w-4xl"  # 56rem (for body text)
+    center: "mx-auto"
+
+  # Component Gaps
+  gaps:
+    nav_items_desktop: "gap-7 xl:gap-9"
+    nav_items_mobile: "gap-5"
+    grid_standard: "gap-12 lg:gap-20"
+    footer_grid: "gap-8"
+    footer_links: "space-y-3.5"
+    carousel_dots: "gap-1.5"
+    carousel_controls: "gap-4"
+
+  # Margins
+  margins:
+    section_title: "mb-20"
+    section_title_small: "mb-10"
+    eyebrow_to_content: "mb-8"
+    content_block: "mb-6"
+    quote_icon: "mb-12"
+    quote_text: "mb-14"
+
+  # Padding
+  padding:
+    button_primary: "px-8 py-3.5"
+    button_secondary: "px-5 py-2.5"
+    button_small: "px-6 py-4"
+    input_field: "px-5 py-3.5"
+    card_content: "p-10"
+
+# ========================================
+# 4. LAYOUT PATTERNS (22 tokens)
+# ========================================
+layout:
+  # Screen Structure
+  screen:
+    hero_height: "h-screen"  # Full viewport height
+    hero_min_height: "min-h-[700px]"
+    video_height: "h-[70vh] min-h-[500px]"
+    carousel_height: "h-screen min-h-[700px]"
+    grid_height: "h-[400px] xl:h-[750px]"
+
+  # Navigation
+  nav:
+    height: "h-[70px]"
+    position: "fixed top-0 left-0 w-full z-50"
+    scrolled_bg: "rgba(0,0,0,0.94)"
+    scrolled_backdrop: "blur(20px)"
+    scrolled_border: "1px solid rgba(255,255,255,0.06)"
+    default_bg: "linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, transparent 100%)"
+    dropdown_bg: "rgba(5,5,5,0.97)"
+    dropdown_border_top: "1px solid rgba(255,255,255,0.08)"
+    mobile_menu_z: "z-[100]"
+
+  # Sidebar Navigation Dots
+  sidebar_dots:
+    position: "fixed right-6 top-1/2 -translate-y-1/2 z-50"
+    display: "hidden lg:flex"
+    layout: "flex-col gap-4"
+    dot_size: "w-1.5 h-1.5"
+    dot_active_scale: "scale(1.5)"
+    dot_inactive_scale: "scale(1)"
+
+  # Grid Systems
+  grids:
+    revolution_cards: "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4"
+    footer_links: "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6"
+    zigzag_pattern: "flex flex-col md:flex-row items-center gap-12 lg:gap-20"
+    zigzag_reverse: "md:flex-row-reverse"  # Alternating pattern
+
+  # Positioning
+  positioning:
+    centered_absolute: "absolute inset-0 w-full h-full object-cover"
+    hero_content: "relative z-10 text-center flex flex-col items-center"
+    overlay_gradient: "absolute inset-0"
+
+# ========================================
+# 5. COMPONENT PATTERNS (32 tokens)
+# ========================================
+components:
+  # Hero Section
+  hero:
+    wrapper: "relative h-screen w-full flex items-center justify-center pt-20"
+    image: "absolute inset-0 w-full h-full object-cover opacity-80"
+    overlay: "absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/80"
+    content_wrapper: "relative z-10 text-center flex flex-col items-center mt-10"
+    badge_circle: "w-14 h-14 mb-8 rounded-full border border-white/20 flex items-center justify-center backdrop-blur-sm"
+    badge_bg: "rgba(255,255,255,0.05)"
+
+  # Section Headers (Eyebrow Pattern)
+  section_header:
+    divider: "w-px h-16 bg-[#c9a76c] mx-auto mb-8"  # Vertical gold line
+    divider_horizontal: "w-12 h-px bg-[#c9a76c] mb-6 md:mb-8"  # Horizontal gold line
+    divider_animated: "h-px bg-[#c9a76c]"  # Animated expanding line (48px → 80px)
+    eyebrow_wrapper: "text-center mb-20 md:mb-24"
+
+  # Buttons
+  buttons:
+    primary:
+      classes: "px-8 py-3.5 bg-white text-black text-xs font-bold tracking-widest uppercase rounded-full hover:bg-[#c9a76c] hover:text-white transition-colors duration-300 shadow-xl"
+      states:
+        default: "bg-white text-black"
+        hover: "bg-[#c9a76c] text-white"
+      animation: "transition-colors duration-300"
+
+    outlined:
+      classes: "text-white text-xs px-5 py-2.5 tracking-[0.15em] uppercase font-light hover:bg-white hover:text-black transition-all duration-250"
+      border: "1px solid rgba(255,255,255,0.4)"
+      states:
+        default: "text-white"
+        hover: "bg-white text-black"
+
+    footer_subscribe:
+      classes: "bg-white text-black text-xs px-6 py-3.5 font-medium tracking-[0.15em] uppercase hover:bg-white/90 transition-colors whitespace-nowrap"
+
+  # Cards (Revolution Section)
+  cards:
+    wrapper: "relative group overflow-hidden border-r border-white/5 last:border-r-0 h-[400px] xl:h-full cursor-pointer"
+    image: "absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-100"
+    overlay: "absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent p-10 flex flex-col justify-end transition-all duration-500"
+    divider: "w-12 h-[2px] bg-[#c9a76c] mb-6"
+    title: "text-xl font-bold tracking-[0.15em] uppercase mb-4 leading-snug"
+    description: "text-sm font-light text-white/80 leading-relaxed"
+    hover_scale: "scale(1.02)"  # Card hover
+    image_hover_scale: "scale(1.1)"  # Image zoom on hover
+
+  # Video Player
+  video_section:
+    wrapper: "relative w-full h-[70vh] min-h-[500px] flex items-center justify-center cursor-pointer group overflow-hidden"
+    overlay: "absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-500"
+    play_button: "w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 text-black group-hover:scale-110 transition-transform duration-500 shadow-2xl"
+    modal_overlay: "fixed inset-0 bg-black/95 z-[100] flex items-center justify-center p-4 animate-in fade-in duration-300"
+
+  # Carousel Navigation
+  carousel:
+    dots_wrapper: "flex gap-1.5"
+    dot_active: "width: 32px, height: 3px, background: #c9a76c, borderRadius: 2px"
+    dot_inactive: "width: 8px, height: 3px, background: rgba(255,255,255,0.3), borderRadius: 2px"
+    arrow_button: "w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/20 transition-all duration-300 hover:scale-110"
+    counter: "text-xs text-white/50 ml-4 font-light"
+
+  # Footer
+  footer:
+    wrapper: "bg-black text-white border-t border-white/10"
+    links_section: "px-8 md:px-20 py-16 md:py-20"
+    newsletter_divider: "border-t border-white/10 pt-10"
+    bottom_bar: "border-t border-white/10 px-8 md:px-20 py-6"
+    input_field: "text-white text-xs px-5 py-3.5 flex-1 md:w-72 focus:outline-none placeholder-white/25 font-light"
+    input_bg: "rgba(255,255,255,0.05)"
+    input_border: "1px solid rgba(255,255,255,0.12)"
+
+# ========================================
+# 6. ANIMATION & MOTION (13 tokens)
+# ========================================
+animations:
+  # Scroll Animations (Framer Motion)
+  fade_in:
+    initial: "opacity: 0, y: 30"
+    whileInView: "opacity: 1, y: 0"
+    viewport: "once: true, margin: -10%"
+    duration: 0.8
+    easing: "[0.16, 1, 0.3, 1]"  # Custom cubic-bezier
+
+  # Hover Animations
+  hover:
+    card_scale: "scale(1.02)"
+    card_duration: 0.4
+    image_scale: "scale(1.1)"
+    image_duration: 2.0
+    button_scale: "scale(1.1)"
+    divider_scale_x: "scaleX(1.5)"
+    divider_origin: "left"
+
+  # Transitions
+  transitions:
+    nav_scroll: "duration-500"  # Navigation background on scroll
+    colors: "duration-300"
+    opacity: "transition-opacity"
+    transform: "duration-300"
+    all: "duration-500"
+
+  # Carousel Transitions
+  carousel_fade:
+    initial: "opacity: 0, scale: 1.05"
+    animate: "opacity: 1, scale: 1"
+    duration: 1.0
+    easing: "[0.16, 1, 0.3, 1]"
+
+  # Parallax Effect
+  parallax:
+    mouse_tracking: "transform: translate(${x * 0.01}px, ${y * 0.01}px) scale(1.05)"
+    spring_config: "stiffness: 50, damping: 20"
+
+# ========================================
+# 7. GRADIENTS & EFFECTS (12 tokens)
+# ========================================
+effects:
+  # Background Gradients
+  gradients:
+    hero_overlay: "bg-gradient-to-b from-black/50 via-transparent to-black/80"
+    section_transition_top: "bg-gradient-to-t from-[#f6f5f1] via-transparent to-transparent"
+    section_transition_bottom: "bg-gradient-to-b from-[#f6f5f1] via-transparent to-[#050505]"
+    carousel_overlay: "bg-gradient-to-t from-black/90 via-black/20 to-black/40"
+    card_overlay: "bg-gradient-to-t from-black/95 via-black/40 to-transparent"
+    video_overlay: "bg-black/30 group-hover:bg-black/10"
+    nav_default: "linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, transparent 100%)"
+
+  # Backdrop Effects
+  backdrop:
+    blur_strong: "backdrop-blur-sm"
+    blur_nav: "blur(20px)"
+
+  # Shadows
+  shadows:
+    text_hero: "0 10px 30px rgba(0,0,0,0.3)"
+    button_primary: "shadow-xl"
+    card_image: "shadow-2xl"
+    play_button: "shadow-2xl"
+    gold_glow: "0 0 10px rgba(201,167,108,0.5)"  # Active dot glow
+
+# ========================================
+# 8. BRAND VIOLATIONS TO DETECT (24 tokens)
+# ========================================
+violations_to_detect:
+  catastrophic:
+    - type: "theme_inversion"
+      description: "Dark theme (#000000) used on light-themed page or vice versa"
+      severity: "CATASTROPHIC"
+      points: -30
+      example: "bg-black on a cream page, or bg-[#f6f5f1] on black page"
+
+    - type: "wrong_primary_font"
+      description: "Font family other than 'Outfit' or fallback sans-serif"
+      severity: "CATASTROPHIC"
+      points: -25
+      example: "font-family: 'Roboto' instead of 'Outfit'"
+
+    - type: "wrong_gold_color"
+      description: "Accent color other than #c9a76c for eyebrows/dividers"
+      severity: "CATASTROPHIC"
+      points: -25
+      example: "Using #FFD700 or any gold shade except #c9a76c"
+
+  critical:
+    - type: "missing_eyebrow_divider"
+      description: "Section header without gold divider line"
+      severity: "CRITICAL"
+      points: -20
+      pattern: "w-px h-16 bg-[#c9a76c] OR w-12 h-px bg-[#c9a76c]"
+
+    - type: "wrong_eyebrow_tracking"
+      description: "Eyebrow label without tracking-[0.3em] or tracking-[0.2em]"
+      severity: "CRITICAL"
+      points: -15
+      correct: "tracking-[0.3em] for large, tracking-[0.2em] for small"
+
+    - type: "missing_uppercase_transform"
+      description: "Eyebrow or nav label without uppercase transform"
+      severity: "CRITICAL"
+      points: -15
+
+    - type: "wrong_section_padding"
+      description: "Section padding not py-24 or py-32"
+      severity: "CRITICAL"
+      points: -15
+      correct: "py-32 for main sections, py-24 for standard"
+
+  high:
+    - type: "wrong_button_tracking"
+      description: "Primary button without tracking-widest"
+      severity: "HIGH"
+      points: -12
+      correct: "tracking-widest for primary, tracking-[0.15em] for outlined"
+
+    - type: "wrong_hero_letter_spacing"
+      description: "Hero heading without letterSpacing: -0.04em or -0.03em"
+      severity: "HIGH"
+      points: -12
+      correct: "-0.04em for ultra-large, -0.03em for large"
+
+    - type: "wrong_overlay_gradient"
+      description: "Hero/carousel without proper gradient overlay"
+      severity: "HIGH"
+      points: -10
+      correct: "bg-gradient-to-b from-black/50 via-transparent to-black/80"
+
+    - type: "wrong_nav_height"
+      description: "Navigation height not h-[70px]"
+      severity: "HIGH"
+      points: -10
+
+    - type: "missing_font_weight"
+      description: "Hero without font-black, body without font-light"
+      severity: "HIGH"
+      points: -10
+      correct: "font-black (900) for hero, font-light (300) for body"
+
+  medium:
+    - type: "wrong_gap_spacing"
+      description: "Grid gap not gap-12 lg:gap-20"
+      severity: "MEDIUM"
+      points: -8
+      correct: "gap-12 lg:gap-20 for content, gap-7 xl:gap-9 for nav"
+
+    - type: "wrong_max_width"
+      description: "Container max-width not using standard values"
+      severity: "MEDIUM"
+      points: -8
+      correct: "max-w-5xl, max-w-6xl, max-w-7xl, max-w-4xl only"
+
+    - type: "missing_transition"
+      description: "Interactive element without transition classes"
+      severity: "MEDIUM"
+      points: -7
+      correct: "transition-colors, transition-opacity, transition-all"
+
+    - type: "wrong_carousel_dot_width"
+      description: "Active carousel dot not 32px width"
+      severity: "MEDIUM"
+      points: -6
+      correct: "32px active, 8px inactive, 3px height"
+
+  low:
+    - type: "wrong_border_opacity"
+      description: "Border color not using standard rgba values"
+      severity: "LOW"
+      points: -5
+      correct: "border-white/10, border-white/5, rgba(255,255,255,0.06), etc."
+
+    - type: "inconsistent_backdrop_blur"
+      description: "Backdrop blur not using backdrop-blur-sm or blur(20px)"
+      severity: "LOW"
+      points: -4
+
+    - type: "missing_hover_state"
+      description: "Button or link without hover state"
+      severity: "LOW"
+      points: -3
+
+    - type: "wrong_icon_stroke"
+      description: "Icon strokeWidth not 1.5"
+      severity: "LOW"
+      points: -3
+      correct: "strokeWidth={1.5} for all Lucide icons"
+
+    - type: "inconsistent_rounded_corners"
+      description: "Buttons not using rounded-full or rounded-sm"
+      severity: "LOW"
+      points: -2
+      correct: "rounded-full for primary buttons, rounded-sm for images"
+
+# ========================================
+# 9. SCORING SYSTEM (100 points total)
+# ========================================
+scoring:
+  total_points: 100
+
+  breakdown:
+    typography_compliance: 25
+      # - Correct font family (Outfit): 10 pts
+      # - Correct weights (black/light/bold): 8 pts
+      # - Correct tracking/letter-spacing: 7 pts
+
+    color_compliance: 20
+      # - Gold accent (#c9a76c) correct: 8 pts
+      # - Background colors correct: 7 pts
+      # - Text opacity levels correct: 5 pts
+
+    spacing_compliance: 15
+      # - Section padding (py-24/py-32): 6 pts
+      # - Container max-width correct: 5 pts
+      # - Gap spacing correct: 4 pts
+
+    component_patterns: 20
+      # - Eyebrow divider present: 8 pts
+      # - Button styles correct: 7 pts
+      # - Navigation structure correct: 5 pts
+
+    animation_effects: 10
+      # - Transitions present: 5 pts
+      # - Hover states correct: 3 pts
+      # - Motion easing correct: 2 pts
+
+    layout_structure: 10
+      # - Grid systems correct: 5 pts
+      # - Section heights correct: 3 pts
+      # - Z-index layering correct: 2 pts
+
+  grading_scale:
+    S_tier: "95-100 points (Perfect brand consistency)"
+    A_tier: "85-94 points (Excellent, minor violations)"
+    B_tier: "70-84 points (Good, some violations)"
+    C_tier: "50-69 points (Acceptable, multiple violations)"
+    D_tier: "30-49 points (Poor, major violations)"
+    F_tier: "0-29 points (Fail, catastrophic violations)"
+
+# ========================================
+# 10. USAGE EXAMPLES
+# ========================================
+examples:
+  correct_hero_section: |
+    <section className="relative h-screen w-full flex items-center justify-center pt-20">
+      <img src="..." className="absolute inset-0 w-full h-full object-cover opacity-80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/80" />
+      <div className="relative z-10 text-center flex flex-col items-center mt-10">
+        <h1 className="text-[12vw] leading-none font-black tracking-tighter uppercase text-white mb-6"
+            style={{ letterSpacing: "-0.04em", textShadow: "0 10px 30px rgba(0,0,0,0.3)" }}>
+          THE LINE
+        </h1>
+      </div>
+    </section>
+
+  correct_section_header: |
+    <FadeIn>
+      <div className="w-px h-16 bg-[#c9a76c] mx-auto mb-8" />
+      <h2 className="text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-10"
+          style={{ color: "#c9a76c" }}>
+        The Future of Urban Living
+      </h2>
+      <p className="text-2xl md:text-3xl font-light leading-relaxed text-gray-800 max-w-4xl mx-auto">
+        Description text here...
+      </p>
+    </FadeIn>
+
+  correct_button: |
+    <button className="px-8 py-3.5 bg-white text-black text-xs font-bold tracking-widest uppercase rounded-full hover:bg-[#c9a76c] hover:text-white transition-colors duration-300 shadow-xl">
+      Get In Touch
+    </button>
+
+  correct_card: |
+    <motion.div className="relative group overflow-hidden border-r border-white/5 h-[400px] xl:h-full cursor-pointer"
+                whileHover={{ scale: 1.02 }}>
+      <motion.img src="..." className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-100"
+                  whileHover={{ scale: 1.1 }} />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent p-10 flex flex-col justify-end">
+        <div className="w-12 h-[2px] bg-[#c9a76c] mb-6" />
+        <h3 className="text-xl font-bold tracking-[0.15em] uppercase mb-4 leading-snug">TITLE</h3>
+      </div>
+    </motion.div>
+
+# ========================================
+# METADATA
+# ========================================
+metadata:
+  extracted_by: "Agent Alpha (DNA Extractor)"
+  extraction_date: "2026-03-13"
+  version: "1.0.0"
+  status: "PRODUCTION_READY"
+  total_design_tokens: 165
+  components_count: 3
+  violations_defined: 24
+
+  notes:
+    - "All colors use exact hex codes or precise rgba() values"
+    - "Typography uses inline styles for letterSpacing and textShadow where needed"
+    - "Gold accent #c9a76c is THE ONLY brand accent color"
+    - "Font family 'Outfit' is imported from Google Fonts"
+    - "Navigation has two states: scrolled (solid) and default (gradient)"
+    - "All animations use Framer Motion with cubic-bezier [0.16, 1, 0.3, 1]"
+    - "Section backgrounds alternate: black → cream → black pattern"
+    - "Images use opacity-80 with gradient overlays for depth"
+
+  next_steps:
+    - "Agent Beta: Use this file to audit subpages for violations"
+    - "Agent Gamma: Generate surgical fixes for violations found"
+    - "Update this file only after major homepage rebrand"

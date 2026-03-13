@@ -1,0 +1,67 @@
+{
+  "project": "ZILLIO",
+  "total_blocks": 0,
+  "skeleton_preserved": true,
+  "mapping_date": "2026-03-13",
+  "status": "TEMPLATE",
+
+  "blocks": [
+    {
+      "id": "EXAMPLE-ZIL-NAV-MAIN",
+      "category": "NAV",
+      "type": "Main Navigation",
+      "level": 1,
+      "parent": null,
+      "children": [],
+      "dependencies": [],
+      "skeleton_snippet": "<nav className=\"fixed top-0 w-full\">",
+      "status": "pending",
+      "assigned_agents": {
+        "content": "@zillio-content-strategist",
+        "graphics": null,
+        "uiux": "@zillio-uiux-engineer",
+        "qa": "@zillio-qa-critic"
+      },
+      "development_priority": 1,
+      "iterations": 0,
+      "qa_score": null,
+      "completion_date": null
+    }
+  ],
+
+  "build_sequence": [
+    "EXAMPLE-ZIL-NAV-MAIN"
+  ],
+
+  "statistics": {
+    "nav_blocks": 0,
+    "hero_blocks": 0,
+    "auth_blocks": 0,
+    "grid_blocks": 0,
+    "content_blocks": 0,
+    "footer_blocks": 0,
+    "cta_blocks": 0,
+    "form_blocks": 0,
+    "visual_blocks": 0,
+    "data_blocks": 0,
+    "total": 0
+  },
+
+  "preservation_audit": {
+    "skeleton_nodes_original": 0,
+    "skeleton_nodes_mapped": 0,
+    "deletions": 0,
+    "status": "PRESERVED"
+  },
+
+  "progress_tracking": {
+    "pending": 0,
+    "in_content": 0,
+    "in_graphics": 0,
+    "in_uiux": 0,
+    "in_qa": 0,
+    "approved": 0,
+    "failed": 0,
+    "completed": 0
+  }
+}
