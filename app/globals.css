@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+/* ZILLIO Brand System - Bloomberg Terminal Aesthetic */
+:root {
+  /* Brand Colors */
+  --brand-primary: #1A1A1A;
+  --brand-secondary: #0A84FF;
+  --brand-accent: #10B981;
+
+  /* Backgrounds */
+  --bg-primary: #FAFAFA;
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #F5F5F5;
+  --bg-data: #F9FAFB;
+
+  /* Text */
+  --text-primary: #1A1A1A;
+  --text-secondary: #4B5563;
+  --text-muted: #6B7280;
+
+  /* Interactive */
+  --link-default: #0A84FF;
+  --link-hover: #0066CC;
+  --btn-primary: #1A1A1A;
+  --btn-primary-hover: #3F3F46;
+
+  /* Borders */
+  --border-default: #E5E7EB;
+  --border-emphasis: #D1D5DB;
+}
+
+@theme inline {
+  /* Colors */
+  --color-primary: var(--brand-primary);
+  --color-secondary: var(--brand-secondary);
+  --color-accent: var(--brand-accent);
+  --color-background: var(--bg-primary);
+  --color-surface: var(--bg-surface);
+  --color-text: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border-default);
+
+  /* Typography */
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+  --font-serif: Georgia, serif;
+
+  /* Spacing - Base 8 System */
+  --spacing-0: 0;
+  --spacing-1: 0.5rem;
+  --spacing-2: 1rem;
+  --spacing-3: 1.5rem;
+  --spacing-4: 2rem;
+  --spacing-6: 3rem;
+  --spacing-8: 4rem;
+  --spacing-12: 6rem;
+  --spacing-16: 8rem;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+
+  /* Transitions */
+  --duration-fast: 0.2s;
+  --duration-normal: 0.3s;
+  --easing: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography Scale */
+h1 {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  font-size: clamp(0.9375rem, 1.25vw, 1.0625rem);
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+/* Data Typography */
+.data-large {
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+.data-medium {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+/* Bloomberg-style Link Underline */
+a {
+  color: var(--link-default);
+  text-decoration: none;
+  transition: color var(--duration-normal) var(--easing);
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}

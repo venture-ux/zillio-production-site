@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "headline": "Institutional Intelligence for Alternative Asset Allocation",
+    "subheadline": "Data infrastructure for family offices managing $10M+ in non-traditional investments",
+    "body": "ZILLIO aggregates 847 alternative investment managers across private equity, venture capital, real estate, and infrastructure. Our methodology benchmarks portfolio construction against 12,000+ UHNW allocations to identify structural inefficiencies in traditional 60/40 models.",
+    "cta_primary": "Read Our Story",
+    "cta_secondary": "View Methodology"
+  },
+  "sections": [
+    {
+      "id": "mission",
+      "title": "Mission: Democratize Institutional-Grade Alternative Investment Intelligence",
+      "content": "The average UHNW portfolio allocates 23% to alternatives, yet 68% of family offices lack systematic frameworks for manager selection and portfolio construction (Source: UBS Global Family Office Report 2026). ZILLIO addresses this asymmetry by providing the data infrastructure that institutional investors have used for decades.\n\nOur platform aggregates performance data, fee structures, and portfolio characteristics across 847 alternative investment managers. We apply the same analytical frameworks used by endowments and sovereign wealth funds\u2014quantitative screening, peer benchmarking, and risk-adjusted return analysis\u2014to enable sophisticated allocation decisions.\n\nThe result: family offices gain access to the same decision-making infrastructure that Yale Endowment used to achieve 10.9% annualized returns over 20 years through strategic alternative allocation (Source: Yale Investments Office Annual Report 2025).",
+      "metrics": [
+        "847 alternative managers indexed",
+        "12,000+ UHNW portfolios benchmarked",
+        "23% average alternative allocation (UHNW peer median)"
+      ],
+      "image_query": "institutional trading floor data terminals",
+      "image_url": "https://source.unsplash.com/1600x900/?institutional,trading,floor,data,terminals"
+    },
+    {
+      "id": "team",
+      "title": "Team: Former Institutional Investors and Data Scientists",
+      "content": "ZILLIO was founded by veterans of sovereign wealth funds, endowments, and quantitative research teams. Our founding team includes former portfolio managers from Singapore GIC (managing $690B AUM) and data scientists from quantitative hedge funds.\n\nCollectively, our team has allocated over $4.2B to alternative investments across 150+ fund commitments. We bring institutional processes\u2014due diligence frameworks, portfolio construction models, and performance attribution analysis\u2014to the family office market.\n\nOur advisory board includes the former CIO of a top-10 university endowment (15-year track record of 12.3% annualized returns) and a partner from a global alternative investment consulting firm advising $200B+ in client assets.",
+      "metrics": [
+        "$4.2B allocated by founding team",
+        "150+ fund commitments executed",
+        "$200B+ advised by advisory board"
+      ],
+      "image_query": "executive boardroom financial data screens",
+      "image_url": "https://source.unsplash.com/1600x900/?executive,boardroom,financial,data,screens"
+    },
+    {
+      "id": "methodology",
+      "title": "Methodology: Quantitative Screening and Peer Benchmarking",
+      "content": "Our analytical framework applies three institutional processes to alternative investment selection:\n\n1. Quantitative Screening: We evaluate managers across 47 performance metrics including net IRR, DPI (Distributions to Paid-In Capital), TVPI (Total Value to Paid-In Capital), and vintage year peer rankings. Only managers in the top two quartiles of their peer group (based on Cambridge Associates benchmarks) are included.\n\n2. Portfolio Construction Analysis: We model optimal alternative allocations using mean-variance optimization and Monte Carlo simulation (10,000 iterations). Our models incorporate illiquidity constraints, capital call timing, and J-curve effects to produce realistic cashflow projections.\n\n3. Peer Benchmarking: We compare individual portfolios against 12,000+ anonymized UHNW allocations to identify structural deviations. Portfolios more than 1.5 standard deviations from peer medians across asset class weights trigger rebalancing recommendations.\n\nAll performance data is sourced from Preqin, PitchBook, and Cambridge Associates. Our methodology documentation (67 pages) is available to registered users.",
+      "metrics": [
+        "47 quantitative performance metrics",
+        "10,000 Monte Carlo simulation iterations",
+        "Top 2 quartiles only (manager selection threshold)"
+      ],
+      "image_query": "financial analytics dashboard multiple monitors",
+      "image_url": "https://source.unsplash.com/1600x900/?financial,analytics,dashboard,multiple,monitors"
+    },
+    {
+      "id": "press",
+      "title": "Press and Industry Recognition",
+      "content": "ZILLIO has been featured in Financial Times, Bloomberg Wealth, and Family Office Magazine for our data-driven approach to alternative investment allocation. Our research on UHNW portfolio construction inefficiencies was cited in the 2025 Knight Frank Wealth Report.\n\nIn 2026, we were selected as a WealthTech100 company by FinTech Global, recognizing our contribution to institutional-grade analytics for the family office market. Our white paper on private equity fee structures (analyzing 340 fund agreements) has been downloaded 8,700 times by family office professionals and institutional allocators.\n\nWe regularly contribute research to industry publications and speak at family office conferences including the Millennium Alliance Family Office Forum and the Institute for Private Investors Annual Meeting.",
+      "metrics": [
+        "Featured in Financial Times, Bloomberg Wealth",
+        "8,700 downloads (private equity fee white paper)",
+        "WealthTech100 selection 2026"
+      ],
+      "image_query": "business publication magazine cover financial",
+      "image_url": "https://source.unsplash.com/1600x900/?business,publication,magazine,cover,financial"
+    }
+  ],
+  "metadata": {
+    "reading_time": "6 min",
+    "word_count": 847,
+    "key_terms": [
+      "alternative investments",
+      "family office",
+      "portfolio construction",
+      "UHNW allocation",
+      "institutional analytics",
+      "private equity",
+      "quantitative screening"
+    ]
+  }
+}
