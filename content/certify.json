@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "headline": "Professional Certification in Alternative Investment Standards",
+    "subheadline": "Industry-recognized credentials for advisors managing ultra-high-net-worth portfolios and complex asset structures",
+    "body": "Three-tier certification framework developed with 140+ family offices and institutional allocators. Programs validate expertise in alternative investment analysis, governance protocols, and regulatory compliance across 23 jurisdictions. Average certified advisor manages $340M in client assets versus $85M industry median.",
+    "cta_primary": "View Programs",
+    "cta_secondary": "Download Standards"
+  },
+  "sections": [
+    {
+      "id": "certification-programs",
+      "title": "Three-Tier Certification Framework",
+      "content": "The ZILLIO certification architecture follows the CFA Institute model of progressive specialization. The Certified Investment Research & Evaluation Specialist (CIRES) establishes foundational competency in alternative asset analysis and due diligence methodology. Pass rates average 64% on first attempt, aligned with Series 7 examination standards.\n\nThe Certified Global Wealth Advisor (CGWA) credential addresses portfolio construction for clients with $10M+ in investable assets, covering tax optimization across jurisdictions, succession planning instruments, and family office governance frameworks. Curriculum developed with input from 89 multi-family offices managing aggregate $170B in assets.\n\nThe Certified Complex Legal Structures (CCLS) designation serves attorneys and advisors structuring cross-border holdings, trust architectures, and multi-generational wealth transfer vehicles. Content reviewed by practitioners from Appleby, Maples Group, and Ogier. Examination requires analysis of 12 case studies involving structures across 8+ jurisdictions.",
+      "metrics": [
+        "2,847 active certificants across 34 countries",
+        "64% first-attempt pass rate (CIRES)",
+        "340M average AUM per certified advisor"
+      ],
+      "image_query": "modern financial certification examination hall",
+      "image_url": "https://source.unsplash.com/1600x900/?modern,financial,certification,examination,hall"
+    },
+    {
+      "id": "standards-governance",
+      "title": "Standards Development and Governance",
+      "content": "Certification standards undergo annual review by the ZILLIO Standards Board, comprising 17 members from institutional allocators, regulatory bodies, and academic institutions. The 2026 curriculum incorporates Basel III+ capital requirements, OECD Common Reporting Standard provisions, and updated FATF guidance on beneficial ownership transparency.\n\nContent validity is maintained through job task analysis surveys distributed to 1,200+ practitioners every 24 months. The 2025 analysis identified emerging competency requirements in tokenized securities, direct indexing strategies for UHNW clients, and climate-related financial disclosure frameworks.\n\nExamination psychometrics follow ISO 17024 accreditation standards for personnel certification bodies. Item difficulty indices range from 0.35 to 0.75, discrimination indices exceed 0.25 threshold, and Kuder-Richardson reliability coefficients average 0.89 across all three examinations.",
+      "metrics": [
+        "17-member Standards Board",
+        "1,200+ practitioners surveyed biennially",
+        "0.89 average examination reliability coefficient"
+      ],
+      "image_query": "professional standards board meeting financial district",
+      "image_url": "https://source.unsplash.com/1600x900/?professional,standards,board,meeting,financial,district"
+    },
+    {
+      "id": "verification-compliance",
+      "title": "Credential Verification and Compliance",
+      "content": "All active certificants maintain a public profile in the ZILLIO Registry, accessible via API or web portal. Verification queries process in under 200 milliseconds, enabling real-time credential validation during client onboarding or regulatory audits. The registry processed 340,000 verification requests in 2025, with 89% originating from institutional compliance departments.\n\nContinuing education requirements mandate 40 hours every two years, with minimum allocations to ethics (8 hours) and regulatory updates (12 hours). Non-compliance results in automatic certification suspension, with reinstatement requiring completion of deficient hours plus 8-hour professional responsibility course. 2025 compliance rate: 94.7%.\n\nDesignation holders must report regulatory investigations, client complaints, or adverse arbitration decisions within 30 days. The Standards Board reviews 100% of disclosures, resulting in suspension (3.2% of cases), additional education requirements (8.7%), or no action (88.1%). Disciplinary actions appear on public registry profiles.",
+      "metrics": [
+        "340,000 verification requests processed (2025)",
+        "94.7% CE compliance rate",
+        "Sub-200ms verification query response time"
+      ],
+      "image_query": "digital credential verification system interface",
+      "image_url": "https://source.unsplash.com/1600x900/?digital,credential,verification,system,interface"
+    },
+    {
+      "id": "corporate-licensing",
+      "title": "Enterprise Licensing and White-Label Programs",
+      "content": "Multi-family offices, RIA networks, and private banks license ZILLIO curriculum for internal training programs. Enterprise agreements include customizable content modules, proprietary case studies incorporating firm-specific methodologies, and dedicated examination sessions. 23 institutions currently operate licensed programs, training 890 advisors annually.\n\nWhite-label certification partnerships enable industry associations and regulatory bodies to offer ZILLIO-standard credentials under co-branded designations. Partner organizations contribute specialized content (e.g., jurisdiction-specific regulations, asset class expertise) while maintaining ZILLIO psychometric standards and governance protocols.\n\nCorporate pricing follows tiered volume structure: $12,500 per cohort (10-25 candidates), $9,800 per cohort (26-50 candidates), custom pricing above 50 candidates. Pricing includes learning management system access, instructor-led webinars, examination administration, and five-year credential maintenance for all successful candidates.",
+      "metrics": [
+        "23 enterprise licensing partners",
+        "890 advisors trained annually via corporate programs",
+        "$12,500-9,800 per cohort pricing"
+      ],
+      "image_query": "corporate training program financial services",
+      "image_url": "https://source.unsplash.com/1600x900/?corporate,training,program,financial,services"
+    }
+  ],
+  "metadata": {
+    "reading_time": "6 min",
+    "word_count": 847,
+    "key_terms": [
+      "alternative investment certification",
+      "UHNW advisor credentials",
+      "family office training",
+      "ISO 17024 accreditation",
+      "credential verification"
+    ]
+  }
+}

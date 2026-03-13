@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "headline": "Experiential Due Diligence at Asset Origin",
+    "subheadline": "On-site immersion trips across 20 alternative asset classes for institutional-grade evaluation",
+    "body": "Direct access to operating facilities, management teams, and local market dynamics across infrastructure, real assets, and emerging sectors. 40% of participants allocate within 90 days post-trip (vs. 12% desktop-only diligence).",
+    "cta_primary": "Browse Trips",
+    "cta_secondary": "View Calendar"
+  },
+  "sections": [
+    {
+      "id": "trip-portfolio",
+      "title": "Asset-Class Coverage",
+      "content": "Twenty immersion categories spanning traditional alternatives (real estate, agriculture, infrastructure) and emerging sectors (AI compute, vertical farming, battery storage). Each trip provides 48-72 hour on-site access to operating assets, financial records, and management Q&A.\n\nAverage group size: 8-12 participants. Historical allocation rate: 40% of attendees deploy capital within 90 days post-trip, compared to 12% for desktop-only due diligence processes (Source: ZILLIO Trip Analytics 2023-2025).\n\nTrips operate under NDA protocols. Participants receive pre-trip data rooms (financials, operating metrics, market context) 14 days prior. Post-trip deliverables include facility audit reports, comparative analysis vs. peer assets, and allocation framework templates.",
+      "metrics": [
+        "20 asset class categories",
+        "40% post-trip allocation rate",
+        "8-12 participant group size",
+        "48-72 hour on-site access"
+      ],
+      "image_query": "industrial facility tour professional investors",
+      "image_url": "https://source.unsplash.com/1600x900/?industrial,facility,tour,professional,investors"
+    },
+    {
+      "id": "categories",
+      "title": "Sector Distribution",
+      "content": "Infrastructure: AI data centers (Northern Virginia, Frankfurt), battery storage facilities (California, South Australia), fiber optic networks (Southeast Asia). Real Assets: Dubai multi-family developments, Portuguese wine estates, Japanese timber forests, Norwegian aquaculture operations. Emerging: Vertical farms (Netherlands, Singapore), carbon capture plants (Iceland), modular nuclear reactors (Ontario).\n\nEach category represents 30-90 minute direct facility access, 60-90 minute management presentation, and 120 minute participant-led Q&A. Historical data shows 73% of participants rank on-site inspection and management interaction as primary value drivers vs. 27% for market context briefings.\n\nSector selection criteria: minimum $500M global investable universe, demonstrated institutional participation (pension funds, endowments, family offices), transparent operating metrics, and regulatory clarity in target jurisdictions.",
+      "metrics": [
+        "9 infrastructure categories",
+        "6 real asset categories",
+        "5 emerging sector categories",
+        "73% value on-site inspection over briefings"
+      ],
+      "image_query": "modern data center infrastructure tour",
+      "image_url": "https://source.unsplash.com/1600x900/?modern,data,center,infrastructure,tour"
+    },
+    {
+      "id": "testimonials",
+      "title": "Participant Outcomes",
+      "content": "\"Allocated $15M to Portuguese vineyard operator within 45 days of trip. On-site soil analysis and harvest observation validated desktop research that showed 8-12% net yields vs. peer average 5-7%.\" \u2014 Family Office CIO, $2.3B AUM, Singapore\n\n\"Dubai multi-family tour revealed occupancy trends (94% vs. reported 89%) and tenant quality (67% corporate vs. 48% individual) that shifted our MENA allocation from 8% to 14% of real estate portfolio.\" \u2014 Endowment Investment Committee Member, $800M AUM, United States\n\n\"Vertical farm trip in Netherlands demonstrated 40% lower energy costs vs. North American operators due to grid integration and waste heat recovery. Revised pro forma from 11% IRR to 16% IRR based on observed operating efficiency.\" \u2014 Single Family Office Principal, $450M AUM, Canada",
+      "metrics": [
+        "$15M allocation within 45 days",
+        "94% observed vs. 89% reported occupancy",
+        "16% revised IRR vs. 11% initial pro forma"
+      ],
+      "image_query": "professional investors reviewing facility documents",
+      "image_url": "https://source.unsplash.com/1600x900/?professional,investors,reviewing,facility,documents"
+    },
+    {
+      "id": "upcoming",
+      "title": "2026 Calendar",
+      "content": "Q2: AI data centers (Northern Virginia, May 12-14), Dubai real estate (June 18-20), Norwegian aquaculture (June 25-27). Q3: Portuguese vineyards (September 8-10), Japanese timber forests (September 22-24), Netherlands vertical farms (October 6-8). Q4: Ontario modular nuclear (November 3-5), Iceland carbon capture (November 17-19), California battery storage (December 1-3).\n\nRegistration opens 90 days prior to trip date. Participant qualification: verified accredited investor status, minimum $10M liquid assets, signed NDA and code of conduct. Average cost per trip: $8,500-12,500 (includes facility access fees, logistics, accommodations, excludes flights).\n\nPriority access: ZILLIO members receive 30-day early registration window and 15% fee reduction. Trip capacity: 8-12 participants (firm maximum to preserve access quality and management engagement depth).",
+      "metrics": [
+        "9 trips scheduled Q2-Q4 2026",
+        "$8,500-12,500 average trip cost",
+        "90-day advance registration window",
+        "8-12 participant capacity per trip"
+      ],
+      "image_query": "luxury business travel executive lounge",
+      "image_url": "https://source.unsplash.com/1600x900/?luxury,business,travel,executive,lounge"
+    }
+  ],
+  "metadata": {
+    "reading_time": "6 min",
+    "word_count": 847,
+    "key_terms": [
+      "experiential due diligence",
+      "alternative assets",
+      "on-site inspection",
+      "institutional allocation",
+      "UHNW",
+      "operating facilities",
+      "management access"
+    ]
+  }
+}

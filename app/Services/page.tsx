@@ -25,12 +25,11 @@ interface PageContent {
     reading_time?: string;
     word_count?: number;
     key_terms?: string[];
-    sources_cited?: string[];
   };
 }
 
-export default async function Home() {
-  const contentPath = path.join(process.cwd(), 'content', 'home.json');
+export default async function Educator() {
+  const contentPath = path.join(process.cwd(), 'content', 'educator.json');
   const content: PageContent = JSON.parse(await fs.readFile(contentPath, 'utf8'));
 
   return (
@@ -126,28 +125,6 @@ export default async function Home() {
           </div>
         </section>
       ))}
-
-      {/* Sources Section */}
-      {content.metadata?.sources_cited && content.metadata.sources_cited.length > 0 && (
-        <section className="py-16 px-8" style={{ backgroundColor: "var(--bg-data)" }}>
-          <div className="max-w-7xl mx-auto">
-            <h3 className="mb-6 text-lg font-semibold" style={{ color: "var(--text-primary)" }}>
-              Sources Cited
-            </h3>
-            <div className="grid md:grid-cols-2 gap-4">
-              {content.metadata.sources_cited.map((source, idx) => (
-                <p
-                  key={idx}
-                  className="text-sm"
-                  style={{ color: "var(--text-muted)" }}
-                >
-                  {idx + 1}. {source}
-                </p>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
     </main>
   );
 }

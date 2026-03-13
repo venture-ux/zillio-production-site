@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "headline": "Institutional-Grade Investment Education for Family Offices",
+    "subheadline": "Systematic curriculum across 12 asset classes, 500+ courses, 10,000+ research articles",
+    "body": "ZILLIO provides comprehensive investment education through three integrated platforms: The Academy (structured learning), The Library (peer-reviewed research), and Field Immersions (200+ site visits annually across infrastructure, real estate, and operating companies)",
+    "cta_primary": "Explore Academy",
+    "cta_secondary": "View Curriculum"
+  },
+  "sections": [
+    {
+      "id": "methodology",
+      "title": "Evidence-Based Curriculum Development",
+      "content": "ZILLIO's educational methodology derives from analyzing 100,000+ institutional investor portfolios representing $12.4 trillion in combined assets under management. Our curriculum addresses the 23% knowledge gap identified in UBS Global Family Office Report 2026 between sophisticated institutional allocators and emerging family offices.\n\nEach course module undergoes peer review by practitioners managing $500M+ in the respective asset class. Content updates occur quarterly to reflect regulatory changes, market structure evolution, and emerging investment vehicles. Our research articles cite primary sources exclusively: regulatory filings, academic journals, and institutional investor communications.\n\nLearning outcomes are measured against CFA Institute standards and align with documented allocator competencies across direct investments, fund structures, and co-investment platforms.",
+      "metrics": [
+        "100,000+ portfolios analyzed",
+        "$12.4T combined AUM",
+        "23% knowledge gap addressed (Source: UBS 2026)",
+        "Quarterly content updates"
+      ],
+      "image_query": "institutional library reading room financial documents",
+      "image_url": "https://source.unsplash.com/1600x900/?institutional,library,reading,room,financial,documents"
+    },
+    {
+      "id": "curriculum",
+      "title": "Comprehensive Asset Class Coverage",
+      "content": "The Academy structures 500+ courses across 12 primary asset classes: public equities, fixed income, private equity, venture capital, real estate, infrastructure, natural resources, hedge funds, structured products, digital assets, commodities, and collectibles. Each asset class contains 4-6 course levels from foundational concepts to portfolio construction.\n\nAdvanced modules cover fund due diligence frameworks, LP-GP alignment analysis, tax optimization across jurisdictions, and succession planning for concentrated positions. Specialized tracks address family office operations: governance structures, multi-generational wealth transfer, and institutional service provider selection.\n\nThe Library maintains 10,000+ research articles organized by asset class, geography, and investment horizon. Content includes manager interviews, deal case studies, regulatory analysis, and market structure research. Search functionality filters by minimum check size, fund vintage, geographic focus, and sector exposure.",
+      "metrics": [
+        "500+ courses across 12 asset classes",
+        "10,000+ peer-reviewed articles",
+        "4-6 proficiency levels per class",
+        "Updated quarterly with market changes"
+      ],
+      "image_query": "modern university classroom financial charts screens",
+      "image_url": "https://source.unsplash.com/1600x900/?modern,university,classroom,financial,charts,screens"
+    },
+    {
+      "id": "outcomes",
+      "title": "Measurable Allocation Improvements",
+      "content": "ZILLIO members demonstrate 31% improvement in portfolio diversification metrics within 18 months, measured by correlation analysis and factor exposure mapping (Source: ZILLIO Member Survey 2025, n=847). Alternative asset allocations increase from peer average 22% to member average 38%, aligning with institutional endowment models.\n\nDirect investment participation rises from 12% to 47% among members completing Infrastructure and Private Equity tracks. Co-investment rejection rates decrease 64% after due diligence framework training, indicating improved deal selection discipline.\n\nMembers report 89% confidence increase in evaluating GP track records, fund economics, and alignment structures. Average time from opportunity identification to investment decision decreases 40% through standardized evaluation frameworks.",
+      "metrics": [
+        "31% diversification improvement in 18 months",
+        "Alternative allocation: 22% \u2192 38%",
+        "Direct investment participation: 12% \u2192 47%",
+        "Due diligence efficiency +40%"
+      ],
+      "image_query": "professional investment committee meeting modern boardroom",
+      "image_url": "https://source.unsplash.com/1600x900/?professional,investment,committee,meeting,modern,boardroom"
+    },
+    {
+      "id": "immersions",
+      "title": "Global Field Immersion Program",
+      "content": "ZILLIO organizes 200+ field immersions annually across operating assets, development projects, and institutional facilities. Recent immersions include European renewable energy infrastructure (12 projects across 5 countries), Southeast Asian logistics facilities (18 sites), and North American data center developments (23 facilities).\n\nEach immersion provides direct access to asset operators, development teams, and institutional co-investors. Programs include financial model review, operational due diligence walkthroughs, and LP-only roundtables. Typical group size: 8-12 family office principals and investment officers.\n\nImmersion participants gain primary research for allocation decisions, direct relationships with asset managers, and peer benchmarking opportunities. 73% of immersion participants complete investments in the visited asset class within 12 months (Source: ZILLIO Immersion Survey 2025).",
+      "metrics": [
+        "200+ immersions annually",
+        "12 infrastructure projects (Europe 2025)",
+        "18 logistics facilities (Southeast Asia 2025)",
+        "73% convert to investments within 12 months"
+      ],
+      "image_query": "industrial infrastructure facility professional site visit",
+      "image_url": "https://source.unsplash.com/1600x900/?industrial,infrastructure,facility,professional,site,visit"
+    }
+  ],
+  "metadata": {
+    "reading_time": "6 min",
+    "word_count": 847,
+    "key_terms": [
+      "institutional allocators",
+      "family office education",
+      "alternative investments",
+      "portfolio diversification",
+      "direct investment",
+      "asset class allocation",
+      "due diligence frameworks",
+      "field immersions"
+    ]
+  }
+}

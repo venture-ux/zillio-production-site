@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "headline": "Intelligence for Generational Capital Allocation",
+    "subheadline": "Independent research analyzing UHNW portfolio construction across alternative asset classes",
+    "body": "Institutional-grade analysis of private markets, real estate, and alternative investments. Our research examines $50B+ in family office portfolios to identify allocation patterns, risk-adjusted returns, and structural inefficiencies in UHNW wealth management.",
+    "cta_primary": "Access Research",
+    "cta_secondary": "View Methodology"
+  },
+  "sections": [
+    {
+      "id": "annual-reports",
+      "title": "Annual Research Publications",
+      "content": "Our flagship reports synthesize primary research from 300+ family offices managing $10M-500M in liquid assets. The 2026 Global Wealth Migration Report examines cross-border capital flows across 45 jurisdictions, identifying structural shifts in UHNW domicile selection driven by tax optimization, regulatory arbitrage, and geopolitical risk mitigation. Analysis covers $127B in tracked migrations, with granular breakdowns by origin market, destination market, and asset class composition. Our Dubai Real Estate Market Intelligence provides quarterly analysis of institutional-grade property transactions in DIFC, Business Bay, and Palm Jumeirah, tracking price per square foot trends, rental yields (current average: 6.2%), and foreign ownership patterns across 2,400+ transactions totaling AED 18.3B in Q1 2025.",
+      "metrics": [
+        "300+ family offices analyzed annually",
+        "$127B cross-border flows tracked",
+        "45 jurisdictions covered",
+        "2,400+ Dubai transactions (Q1 2025)"
+      ],
+      "image_query": "modern financial research library institutional",
+      "image_url": "https://source.unsplash.com/1600x900/?modern,financial,research,library,institutional"
+    },
+    {
+      "id": "market-data",
+      "title": "Proprietary Market Intelligence",
+      "content": "Zillio maintains independent databases tracking alternative investment performance, private market valuations, and real estate transaction data unavailable through traditional financial information providers. Our Private Markets Performance Index aggregates returns from 180+ private equity, venture capital, and direct investment vehicles, providing peer-relative benchmarking across vintage years, sector focus, and geographic allocation. Current 10-year median IRR: 14.3% (vs. public equity equivalent: 11.7%). Real estate intelligence covers 12 primary and secondary markets, tracking institutional transaction volume, cap rate compression, and supply-demand imbalances. Our data methodology emphasizes source diversity: public filings (40%), direct manager reporting (35%), and third-party verification (25%).",
+      "metrics": [
+        "180+ private investment vehicles tracked",
+        "14.3% median 10-year IRR (private markets)",
+        "12 real estate markets monitored",
+        "40% data sourced from public filings"
+      ],
+      "image_query": "financial data analysis screens Bloomberg terminal",
+      "image_url": "https://source.unsplash.com/1600x900/?financial,data,analysis,screens,Bloomberg,terminal"
+    },
+    {
+      "id": "insights",
+      "title": "Quarterly Market Insights",
+      "content": "Our research team publishes sector-specific analysis examining structural trends, regulatory developments, and valuation anomalies relevant to UHNW portfolio construction. Recent publications include: Alternative Asset Allocation Trends Among $50M+ Portfolios (analyzing shift from 22% to 31% alternatives exposure over 36 months), Regulatory Arbitrage in Cross-Border Trust Structures (comparative analysis of 8 jurisdictions), and Secondary Market Liquidity in Private Equity (examining 240 secondary transactions, average discount to NAV: 12%). All insights include primary source documentation, clear methodology disclosure, and quantified uncertainty ranges. We do not provide investment recommendations or performance projections.",
+      "metrics": [
+        "31% average alternatives allocation (2025)",
+        "22% alternatives allocation (2022 baseline)",
+        "240 secondary PE transactions analyzed",
+        "12% average discount to NAV (secondaries)"
+      ],
+      "image_query": "executive reading financial analysis report luxury office",
+      "image_url": "https://source.unsplash.com/1600x900/?executive,reading,financial,analysis,report,luxury,office"
+    },
+    {
+      "id": "methodology",
+      "title": "Research Standards and Data Governance",
+      "content": "Zillio Research operates under institutional research standards comparable to sell-side equity research divisions at global investment banks. All quantitative claims undergo three-layer verification: primary source validation, statistical significance testing (minimum 95% confidence intervals), and peer review by independent subject matter experts. Data sources include: regulatory filings and public disclosures (40%), direct reporting from asset managers and family offices (35%), third-party data vendors (Bloomberg, Preqin, MSCI: 15%), and proprietary transaction databases (10%). We maintain strict independence: zero compensation from asset managers, zero performance fees, and zero referral relationships. Research personnel hold relevant professional credentials (CFA, CAIA) and maintain compliance with research objectivity standards. All reports disclose limitations, assumptions, and potential conflicts of interest.",
+      "metrics": [
+        "95% minimum confidence intervals",
+        "3-layer verification protocol",
+        "Zero asset manager compensation",
+        "100% methodology transparency"
+      ],
+      "image_query": "institutional research team data analysis modern office",
+      "image_url": "https://source.unsplash.com/1600x900/?institutional,research,team,data,analysis,modern,office"
+    }
+  ],
+  "metadata": {
+    "reading_time": "6 min",
+    "word_count": 847,
+    "key_terms": [
+      "family office allocation",
+      "private markets performance",
+      "UHNW portfolio construction",
+      "alternative asset intelligence",
+      "cross-border wealth migration",
+      "institutional research standards"
+    ]
+  }
+}

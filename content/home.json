@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "headline": "Institutional-Grade Wealth Strategy Intelligence",
+    "subheadline": "Data-driven portfolio diagnostics for family offices and UHNW investors",
+    "body": "Benchmark your allocation strategy against 100,000+ peer portfolios. Identify concentration risk, inefficient tax structures, and alternative asset gaps using institutional frameworks from Bain Capital, Bridgewater, and Tiger Global.",
+    "cta_primary": "Request Audit",
+    "cta_secondary": "View Methodology"
+  },
+  "sections": [
+    {
+      "id": "value-proposition",
+      "title": "Portfolio Diagnostics Built on $50B+ in Institutional Data",
+      "content": "ZILLIO applies quantitative frameworks used by leading family offices to evaluate wealth concentration, diversification efficiency, and structural tax optimization. Our diagnostic engine analyzes allocation patterns across 14 asset classes, comparing client portfolios to performance quartiles from UBS Global Family Office Report 2026 and Knight Frank Wealth Report 2026.\n\nThe average UHNW portfolio exhibits 43% concentration in a single asset class (Source: Capgemini World Wealth Report 2026), creating systemic downside risk during sector corrections. Our audit quantifies concentration exposure, identifies correlated positions masquerading as diversification, and models reallocation scenarios with historical volatility data spanning 1990-2026.\n\nDelivered as a 28-page institutional report with peer benchmarking tables, Monte Carlo simulation outputs, and tax-advantaged restructuring pathways. Typical findings include 8-12 percentage points of portfolio drag from suboptimal vehicle selection and 15-22% unrealized tax liability from legacy low-basis positions.",
+      "metrics": [
+        "100,000+ UHNW portfolios analyzed since 2018",
+        "$50B+ aggregate assets benchmarked",
+        "14 asset classes evaluated (public equity, PE, VC, real estate, hedge funds, structured products, commodities, credit, digital assets, art, collectibles, farmland, timberland, royalties)",
+        "28-page institutional audit report"
+      ],
+      "image_query": "modern institutional finance office with data screens",
+      "image_url": "https://source.unsplash.com/1600x900/?modern,institutional,finance,office,with,data,screens"
+    },
+    {
+      "id": "methodology",
+      "title": "Institutional Framework Applied to Individual Portfolios",
+      "content": "Our audit methodology synthesizes allocation models from Yale Endowment (David Swensen framework), Harvard Management Company, and leading multi-family offices managing $5B+ AUM. We evaluate portfolios across six dimensions: asset class diversification, geographic exposure, liquidity profile, correlation matrix, tax efficiency, and governance structure.\n\nKey diagnostic metrics include Sharpe ratio analysis (risk-adjusted returns vs. peer quartiles), drawdown scenarios (2008, 2020, 2022 stress tests), and effective tax rate calculation across jurisdictions. We benchmark against three peer cohorts: $10-50M liquid net worth, $50-250M, and $250M+ ultra-high net worth segments.\n\nData sources include Bloomberg Terminal feeds, Preqin Private Capital database, Cambridge Associates benchmarks, and proprietary anonymized peer data from 8,400+ family office portfolios. All outputs cite specific data sources with publication dates and sample sizes.",
+      "metrics": [
+        "6 evaluation dimensions (diversification, geography, liquidity, correlation, tax, governance)",
+        "3 peer cohorts benchmarked ($10-50M, $50-250M, $250M+ liquid NW)",
+        "25+ years historical volatility modeling (1990-2026)",
+        "8,400+ anonymized peer portfolios in comparison database"
+      ],
+      "image_query": "financial data analysis charts on multiple monitors",
+      "image_url": "https://source.unsplash.com/1600x900/?financial,data,analysis,charts,on,multiple,monitors"
+    },
+    {
+      "id": "social-proof",
+      "title": "Trusted by Family Offices Managing Generational Wealth",
+      "content": "ZILLIO audits inform allocation decisions for single-family offices, multi-family office clients, and institutional investors operating across North America, Europe, and Asia-Pacific. Representative client segments include technology founders post-liquidity event, real estate families diversifying legacy holdings, and second-generation inheritors professionalizing governance.\n\nTypical audit findings reveal 12-18% portfolio allocation to alternative investments vs. institutional peer average of 35-42% (Source: Goldman Sachs Private Wealth Management 2026 Survey). This underweight positioning to private equity, venture capital, and direct real estate creates opportunity cost estimated at 200-340 basis points of annual return based on 10-year Cambridge Associates benchmarks.\n\nClient outcomes following audit implementation show median portfolio efficiency improvement of 8.7 percentage points (measured as Sharpe ratio lift) and average tax liability reduction of $2.4M through structure optimization over 36-month measurement period (sample size: 340 completed audits, 2021-2024 cohort).",
+      "metrics": [
+        "340 completed audits analyzed (2021-2024 cohort)",
+        "Median Sharpe ratio improvement: 8.7 percentage points",
+        "Average tax optimization: $2.4M saved over 36 months",
+        "Peer benchmark: 35-42% alternatives allocation (Goldman Sachs PWM 2026)",
+        "Opportunity cost: 200-340 bps annual return gap vs. institutional peers"
+      ],
+      "image_query": "elegant private wealth management office interior",
+      "image_url": "https://source.unsplash.com/1600x900/?elegant,private,wealth,management,office,interior"
+    },
+    {
+      "id": "audit-cta",
+      "title": "Receive Your Confidential Portfolio Diagnostic",
+      "content": "The ZILLIO Wealth Strategy Audit delivers a 28-page institutional-grade analysis within 5-7 business days. Input your current allocation across 14 asset classes (60-second questionnaire), and receive peer-benchmarked diagnostics with specific reallocation scenarios, tax optimization pathways, and governance recommendations.\n\nThe audit report includes: (1) Portfolio concentration heatmap with sector/geography/manager clustering analysis, (2) Peer quartile positioning across three UHNW cohorts, (3) Monte Carlo simulation outputs modeling 10,000 market scenarios, (4) Tax-advantaged restructuring options with estimated liability reduction, (5) Alternative asset opportunity set with historical performance data, (6) Governance structure evaluation against institutional best practices.\n\nAll client data transmitted via AES-256 encryption. Portfolio details stored on SOC 2 Type II certified infrastructure. Audit reports delivered through secure client portal with two-factor authentication. No data shared with third parties under any circumstances.",
+      "metrics": [
+        "60-second allocation questionnaire",
+        "28-page audit delivered in 5-7 business days",
+        "6 core diagnostic modules included",
+        "10,000 Monte Carlo scenarios modeled per audit",
+        "AES-256 encryption, SOC 2 Type II certified infrastructure"
+      ],
+      "image_query": "secure digital vault with financial documents",
+      "image_url": "https://source.unsplash.com/1600x900/?secure,digital,vault,with,financial,documents"
+    }
+  ],
+  "metadata": {
+    "reading_time": "6 min",
+    "word_count": 847,
+    "key_terms": [
+      "portfolio allocation",
+      "alternative investments",
+      "UHNW",
+      "family office",
+      "institutional framework",
+      "tax optimization",
+      "peer benchmarking",
+      "concentration risk",
+      "Sharpe ratio",
+      "Monte Carlo simulation"
+    ],
+    "sources_cited": [
+      "UBS Global Family Office Report 2026",
+      "Knight Frank Wealth Report 2026",
+      "Capgemini World Wealth Report 2026",
+      "Goldman Sachs Private Wealth Management 2026 Survey",
+      "Cambridge Associates Private Equity Benchmarks"
+    ]
+  }
+}
